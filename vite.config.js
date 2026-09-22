@@ -5,8 +5,15 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   base: process.env.NODE_ENV === "production" ? "/Spylt-awward-clone/" : "/",
-  build: {
-    outDir: "docs"
+
+  server: {
+    port: 5175,
+    strictPort: false, // If 5173 is busy, Vite automatically tries the next free port
   },
+
+  build: {
+    outDir: "docs",
+  },
+
   plugins: [react(), tailwindcss()],
 });
