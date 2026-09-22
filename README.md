@@ -9,7 +9,7 @@ Built by **[Gahire Abdilillah](https://github.com/Gahire01)**
 
 ## 🔗 Live Demo
 
-👉 **[View Live on Vercel](https://gsap-awwwards.vercel.app)**
+👉 **[View Live on Vercel](https://spylt-awwwards-eta.vercel.app)**
 
 ---
 
@@ -56,12 +56,7 @@ Every section is designed to feel alive — from character reveals to pinned scr
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Gahire01/gsap-awwwards.git
 cd gsap-awwwards
-
-# Install dependencies
 npm install
-
-# Start the dev server
 npm run dev
